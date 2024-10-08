@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semana 1</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='styles/cabecalho.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename='styles/cronograma.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename='styles/gerais.css')}}">
+</head>
+<body>
+    <!-- Menu de navegação -->
+    <header>
+        <div class="menu">
+            <a href="/" style="background-color: #ddd; color: black">Senana 1</a>
+            <a href="/semana2">Semana 2</a>
+            <a href="/semana3">Semana 3</a>
+            <a href="/semana4">Semana 4</a>
+        </div>
+    </header>
+
+    <!-- Botão de Adicionar Novo Evento -->
+    <div id="btn-add" class="btn-add"><a href="/cadastro-nota">+</a></div>
+
+    <!-- Cronograma -->
+    <div id="semana1" class="pagina content active">
+        <div class="cronograma">
+            <div class="header-cronograma"></div>
+            <div id="domingo" class="dia">
+                <h2>Dom</h2>
+            </div>
+            <div id="segunda" class="dia">
+                <h2>Seg</h2>
+            </div>
+            <div id="terca" class="dia">
+                <h2>Ter</h2>
+            </div>
+            <div id="quarta" class="dia">
+                <h2>Qua</h2>
+            </div>
+            <div id="quinta" class="dia">
+                <h2>Qui</h2>
+            </div>
+            <div id="sexta" class="dia">
+                <h2>Sex</h2>
+            </div>
+            <div id="sabado" class="dia">
+                <h2>Sab</h2>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

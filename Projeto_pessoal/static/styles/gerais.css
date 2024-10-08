@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+.pagina{
+    border: 1px solid red;
+    width: 96%;
+    height: 95vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-add{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-add a{
+    text-decoration: none;
+    color: white;
+    font-size: 45px;
+}
